@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mz0702.github.io/gutachter-mueller-v2/sitemap.xml
