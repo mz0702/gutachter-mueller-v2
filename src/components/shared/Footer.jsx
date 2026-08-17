@@ -129,11 +129,13 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Decorative wordmark — aria-hidden, not a heading */}
-      <div className="w-full flex justify-center overflow-hidden leading-none mt-4 px-4" aria-hidden="true">
-        <p className="text-brand-secondary/90 font-bold tracking-tight whitespace-nowrap leading-[0.85] text-[clamp(2rem,12vw,11rem)] pt-[0.15em]">
-          ARNE MÜLLER
-        </p>
+      {/* Decorative large logo — aria-hidden, not a heading */}
+      <div className="w-full flex justify-center mt-4 px-8 sm:px-12" aria-hidden="true">
+        <img
+          src={asset("/images/logo-full-white.png")}
+          alt=""
+          className="w-full max-w-3xl h-auto opacity-90"
+        />
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
