@@ -11,7 +11,7 @@ const facts = [
     text: "Keine Bindung an Versicherung oder Werkstatt.",
   },
   {
-    title: "Vor Ort in Süddeutschland",
+    title: "Vor-Ort-Service in Süddeutschland",
     text: "Besichtigung bei Ihnen oder in der Werkstatt.",
   },
   {

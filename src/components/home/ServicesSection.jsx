@@ -8,21 +8,24 @@ const services = [
     title: "Gutachtenerstellung",
     summary:
       "Unfall- und Schadengutachten für PKW, Wohnmobile, Krafträder, Anhänger, Fahrräder und E-Scooter.",
-    tags: ["Schadengutachten", "3D-Achsvermessung", "Begleitung bis zur Regulierung"],
+    detail:
+      "Bei einem unverschuldeten Verkehrsunfall mit Ihrem Fahrzeug steht Ihnen nach § 249 BGB ein Schadengutachten sowie eine Rechtsunterstützung kostenfrei zu, um den Schaden gegenüber der gegnerischen Haftpflichtversicherung korrekt zu dokumentieren und die Reparaturkosten zu beziffern. Wir stehen Ihnen bis zur vollständigen Schadensregulierung zur Seite und arbeiten hierbei eng mit Fachanwälten für Verkehrsrecht zusammen.",
   },
   {
     number: "02",
     title: "Fahrzeugbewertung",
     summary:
-      "Der realistische Wert Ihres Fahrzeugs – vom Gebrauchtwagen bis zum Oldtimer.",
-    tags: ["Wertgutachten Oldtimer", "Leasingfahrzeuge", "Kostenvoranschlag"],
+      "Wir ermitteln den Wert Ihres Fahrzeugs und unterstützen Sie bei Kostenvoranschlägen.",
+    detail:
+      "Wenn Sie den realistischen Verkaufspreis für Ihr Auto, Motorrad, Wohnmobile etc. ermitteln möchten oder ein Wertgutachten für Ihren Oldtimer zur Vorlage bei der Versicherung benötigen, sind Sie bei uns genau richtig. Auch bei der Bewertung von Leasingfahrzeugen oder der Erstellung von Kostenvoranschlägen bieten wir Ihnen kompetente Unterstützung.",
   },
   {
     number: "03",
     title: "Kundenberatung",
     summary:
-      "Beratung rund um Ihr Fahrzeug – vom Gebrauchtwagenkauf bis zum Flottenmanagement.",
-    tags: ["An- und Verkauf", "Preisfindung", "Flottenmanagement"],
+      "Wir bieten Ihnen kompetente Beratung zu Ihren Fahrzeugen, wie der Unterstützung bei Gebrauchtwagenkäufen und -verkäufen oder bei Ihrem Flottenmanagement.",
+    detail:
+      "Wir stehen Ihnen bei der Auswahl sowie dem An- und Verkauf von Gebrauchtwagen zur Seite, helfen Ihnen, den besten Preis zu erzielen und beraten Sie zu allen relevanten Fahrzeugfragen. Darüber hinaus unterstützen wir Sie professionell im Bereich Flottenmanagement, um Ihre Fahrzeuge optimal zu verwalten und Kosten zu minimieren.",
   },
 ];
 
@@ -56,20 +59,14 @@ export default function ServicesSection() {
                 </h3>
               </div>
 
-              <p className="lg:col-span-5 text-base sm:text-lg text-brand-gray leading-relaxed max-w-xl">
-                {service.summary}
-              </p>
-
-              <ul className="lg:col-span-3 flex flex-wrap gap-2">
-                {service.tags.map((tag) => (
-                  <li
-                    key={tag}
-                    className="rounded-full bg-[#eef1f4] text-brand-dark text-xs sm:text-sm px-4 py-2"
-                  >
-                    {tag}
-                  </li>
-                ))}
-              </ul>
+              <div className="lg:col-span-8 space-y-3 max-w-2xl">
+                <p className="text-base sm:text-lg text-brand-gray leading-relaxed">
+                  {service.summary}
+                </p>
+                <p className="text-sm sm:text-base text-brand-gray/80 leading-relaxed">
+                  {service.detail}
+                </p>
+              </div>
             </div>
           ))}
         </div>

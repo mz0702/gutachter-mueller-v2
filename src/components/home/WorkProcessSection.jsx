@@ -10,7 +10,7 @@ const steps = [
   {
     number: "01",
     title: "Kontaktaufnahme",
-    description: "Schnell und unkompliziert – wir kümmern uns sofort um Ihr Anliegen.",
+    description: "Schnell und unkompliziert - wir kümmern uns sofort um Ihr Anliegen.",
   },
   {
     number: "02",
@@ -138,6 +138,11 @@ export default function WorkProcessSection() {
               ))}
             </div>
           </div>
+
+          <p className="gs-reveal mt-14 sm:mt-16 text-sm sm:text-base text-gray-400 max-w-2xl">
+            Als Unfallgeschädigter kommen nach § 249 BGB keine Kosten auf Sie zu. Wir arbeiten mit
+            jeder Haftpflichtversicherung zusammen.
+          </p>
         </div>
       </div>
     </section>

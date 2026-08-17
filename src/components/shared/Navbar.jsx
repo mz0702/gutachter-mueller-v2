@@ -6,8 +6,8 @@ import { asset } from "@/lib/paths";
 
 const navLinks = [
   { label: "Start", href: "/" },
-  { label: "Ablauf", href: "/#ablauf" },
-  { label: "Leistungen", href: "/#leistungen" },
+  { label: "Arbeitsablauf", href: "/#ablauf" },
+  { label: "Dienstleistungen", href: "/#leistungen" },
   { label: "Qualifikation", href: "/#qualifikation" },
   { label: "Bewertungen", href: "/#bewertungen" },
   { label: "Kontakt", href: "/kontakt" },

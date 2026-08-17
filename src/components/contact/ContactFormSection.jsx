@@ -164,7 +164,7 @@ export default function ContactFormSection() {
 
                 <label className="flex items-start gap-3 text-xs text-gray-400">
                   <input type="checkbox" className="mt-0.5 accent-brand-secondary" />
-                  Ja, ich möchte gelegentlich Informationen zu Aktionen erhalten.
+                  Ja, ich möchte Nachrichten über Werbeaktionen erhalten.
                 </label>
 
                 <Button type="submit" variant="gold" size="lg" radius="rounded" fullWidth>

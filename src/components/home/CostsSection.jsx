@@ -3,8 +3,8 @@ import useReveal from "@/hooks/useReveal";
 
 const costs = [
   "Reparaturkosten / Wertminderung",
-  "Gutachten inkl. 3D-Achsvermessung",
-  "Gerichts- und Rechtsanwaltskosten",
+  "Gutachten inkl. 3D Achsvermessung",
+  "Gerichts- und Rechtsanwaltkosten",
   "Nutzungsausfall / Mietwagen",
   "Schmerzensgeld / Arztkosten",
   "Abschleppkosten / Entsorgungskosten",
@@ -22,12 +22,9 @@ export default function CostsSection() {
             <span className="w-2 h-2 rounded-full bg-brand-secondary" />
             Kostenübernahme
           </div>
-          <h2 className="gs-reveal text-3xl sm:text-4xl md:text-5xl font-medium leading-tight mb-5">
-            Das übernimmt die gegnerische Versicherung
+          <h2 className="gs-reveal text-3xl sm:text-4xl md:text-5xl font-medium leading-tight">
+            Erstattungsfähige Kosten durch die gegnerische Haftpflichtversicherung
           </h2>
-          <p className="gs-reveal text-white/70 text-base sm:text-lg">
-            Bei unverschuldetem Unfall – für Sie kostenfrei.
-          </p>
         </div>
 
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
@@ -48,11 +45,6 @@ export default function CostsSection() {
             </li>
           ))}
         </ul>
-
-        <p className="gs-reveal mt-12 sm:mt-16 text-white/60 text-sm sm:text-base border-t border-white/10 pt-8 max-w-xl">
-          Wir arbeiten mit jeder Haftpflichtversicherung zusammen – bei Bedarf gemeinsam mit
-          Fachanwälten für Verkehrsrecht.
-        </p>
       </div>
     </section>
   );
