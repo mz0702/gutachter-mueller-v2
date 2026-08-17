@@ -67,10 +67,16 @@ export default function HeroSection() {
           </div>
           <h1
             ref={addToRefs}
-            className="text-3xl sm:text-5xl md:text-6xl lg:text-[4.5rem] font-medium leading-[1.1] tracking-tight mb-6"
+            className="text-3xl sm:text-5xl md:text-6xl lg:text-[4.5rem] font-medium leading-[1.1] tracking-tight mb-4"
           >
             Kfz-Gutachter Arne Müller
           </h1>
+          <p
+            ref={addToRefs}
+            className="text-xl sm:text-2xl md:text-3xl font-medium text-brand-secondary mb-6 sm:mb-8 leading-snug"
+          >
+            Gutachten mit Präzision &middot; Beratung mit Leidenschaft
+          </p>
           <p ref={addToRefs} className="text-lg sm:text-xl text-gray-200 mb-3 leading-relaxed max-w-xl">
             Sie sind Geschädigter bei einem Verkehrsunfall?
           </p>
@@ -103,10 +109,6 @@ export default function HeroSection() {
               Kurzfristige Termine
             </span>
           </div>
-
-          <p ref={addToRefs} className="mt-5 sm:mt-6 text-sm font-medium tracking-wide text-white/50">
-            Gutachten mit Präzision &middot; Beratung mit Leidenschaft
-          </p>
         </div>
       </div>
     </section>
