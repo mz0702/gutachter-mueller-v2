@@ -92,6 +92,21 @@ export default function HeroSection() {
               WhatsApp
             </a>
           </div>
+
+          <div ref={addToRefs} className="flex flex-wrap items-center gap-x-6 gap-y-2 mt-6 sm:mt-8 text-sm text-white/70">
+            <span className="inline-flex items-center gap-2">
+              <span className="w-1 h-1 rounded-full bg-brand-secondary" />
+              Vor-Ort-Service in Süddeutschland
+            </span>
+            <span className="inline-flex items-center gap-2">
+              <span className="w-1 h-1 rounded-full bg-brand-secondary" />
+              Kurzfristige Termine
+            </span>
+          </div>
+
+          <p ref={addToRefs} className="mt-5 sm:mt-6 text-sm font-medium tracking-wide text-white/50">
+            Gutachten mit Präzision &middot; Beratung mit Leidenschaft
+          </p>
         </div>
       </div>
     </section>
