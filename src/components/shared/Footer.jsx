@@ -134,7 +134,7 @@ export default function Footer() {
         <img
           src={asset("/images/logo-full-white.png")}
           alt=""
-          className="w-full max-w-3xl h-auto opacity-90"
+          className="w-full max-w-[507px] h-auto opacity-90"
         />
       </div>
 
